@@ -1,0 +1,4 @@
+result
+plugins
+integration/alloc
+integration/test-*
