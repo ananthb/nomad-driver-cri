@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ananthb/nomad-driver-cri/cri"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/nomad/drivers/shared/eventer"
 	"github.com/hashicorp/nomad/plugins/base"
 	"github.com/hashicorp/nomad/plugins/drivers"
 	"github.com/hashicorp/nomad/plugins/shared/hclspec"
 	"github.com/hashicorp/nomad/plugins/shared/structs"
+	"go.calculon.tech/nomad-driver-cri/cri"
 	runtimeapi "k8s.io/cri-api/pkg/apis/runtime/v1"
 )
 
