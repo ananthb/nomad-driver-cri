@@ -1,4 +1,4 @@
-module github.com/ananthb/nomad-driver-cri
+module go.calculon.tech/nomad-driver-cri
 
 go 1.23
 

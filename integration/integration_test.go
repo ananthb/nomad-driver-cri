@@ -16,8 +16,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ananthb/nomad-driver-cri/cri"
-	"github.com/ananthb/nomad-driver-cri/driver"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/nomad/helper/uuid"
 	"github.com/hashicorp/nomad/nomad/structs"
@@ -26,6 +24,8 @@ import (
 	dtestutil "github.com/hashicorp/nomad/plugins/drivers/testutils"
 	"github.com/hashicorp/nomad/testutil"
 	"github.com/stretchr/testify/require"
+	"go.calculon.tech/nomad-driver-cri/cri"
+	"go.calculon.tech/nomad-driver-cri/driver"
 )
 
 const (

@@ -4,9 +4,9 @@
 package main
 
 import (
-	"github.com/ananthb/nomad-driver-cri/driver"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/nomad/plugins"
+	"go.calculon.tech/nomad-driver-cri/driver"
 )
 
 func main() {
